@@ -1,0 +1,16 @@
+[nginx]:
+
+ location / { // …..省略部分代码
+   if (!-e $request_filename) {
+   rewrite  ^(.*)$  /index.php?s=$1  last;
+   break;
+    }
+ }
+
+ [apache]:
+ <IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php?s=/$1 [QSA,PT,L]
+ </IfModule>
