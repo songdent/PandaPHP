@@ -1,8 +1,8 @@
 {
-    "name": "PandaPHP",
-    "type": "library",
+    "name": "songdent/PandaPHP",
+    "type": "framework",
     "description": "A simple and seamless upgrade PHP development framework",
-    "keywords": ["php","PandaPHP","php framework"],
+    "keywords": ["php","PandaPHP","framework"],
     "homepage": "https://songdent.github.com/PandaPHP",
     "license": "Apache License 2.0",
     "authors": [
