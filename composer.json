@@ -1,0 +1,19 @@
+{
+    "name": "PandaPHP",
+    "type": "library",
+    "description": "A simple and seamless upgrade PHP development framework",
+    "keywords": ["php","PandaPHP","php framework"],
+    "homepage": "https://songdent.github.com/PandaPHP",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "宋灯涛",
+            "email": "songdengtao_cn@163.com",
+            "homepage": "http://songdengtao.cn",
+            "role": "founder and developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
